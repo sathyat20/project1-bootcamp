@@ -1,0 +1,103 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "If you drink coffee, which statement would best describe how you prefer it?",
+      "options": [
+        {
+          "text": "Add sugar or sugar (or sweetener) and cream",
+          "value": "sugar"
+        },
+        { "text": "Add cream only", "value": "cream" },
+        { "text": "Add lemon only", "value": "lemon" },
+        {
+          "text": "Take it straight without cream or sugar",
+          "value": "nocreamorsugar"
+        },
+        { "text": "Don't drink coffee", "value": "dont" }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "If you occasionally drink cocktails or distilled spirits, which would you be more likely to choose:",
+      "options": [
+        { "text": "Martini", "value": "martini" },
+        { "text": "Bourbon or Scotch", "value": "bourbon" },
+        { "text": "Margarita", "value": "marg" },
+        { "text": "Mai Tai/Cosmopolitan", "value": "maitai" },
+        { "text": "Sparkling Wine", "value": "sparkling" },
+        { "text": "Rarely or never drink cocktails or distilled spirits", "value": "rare" }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "When dining out at a local, chain restaurant,and not concerned about dieting, my first choice of a chicken dish to order would most likely be:",
+      "options": [
+        { "text": "Lemon/Citrus Chicken", "value": "citrus" },
+        { "text": "Roasted Chicken", "value": "roast" },
+        { "text": "Barbecued Chicken", "value": "bbq" },
+        { "text": "Buffalo Chicken", "value": "buff" },
+        { "text": "Chicken Salad", "value": "salad" },
+        { "text": "Do not like chicken", "value": "no" }
+      ]
+    }
+  ],
+  "combinations": [
+    {
+      "result": "Pinot Grigio + Feta/Goat Cheese",
+      "criteria": { "sugar": 1, "martini": 1, "citrus": 1 }
+    },
+    {
+      "result": "Cotes de Provence + Feta/Goat Cheese",
+      "criteria": { "sugar": 1, "bourbon": 1, "citrus": 1 }
+    },
+    {
+      "result": "Brut Champagne + Camembert",
+      "criteria": { "sugar": 1, "marg": 1, "citrus": 1 }
+    },
+    {
+      "result": "Chenin Blanc + Epoisses",
+      "criteria": { "sugar": 1, "maitai": 1, "citrus": 1 }
+    },
+    {
+      "result": "Roussillon + Edam",
+      "criteria": { "sugar": 1, "sparkling": 1, "citrus": 1 }
+    },
+    {
+      "result": "Bordeaux + Pecorino",
+      "criteria": { "sugar": 1, "rare": 1, "citrus": 1 }
+    },
+    {
+      "result": "Sauvignon Blanc + Gorgonzola",
+      "criteria": { "sugar": 1, "martini": 1, "roast": 1 }
+    },
+    {
+      "result": "Sauvignon Blanc + Gorgonzola",
+      "criteria": { "sugar": 1, "martini": 1, "bbq": 1 }
+    },
+    {
+      "result": "Sauvignon Blanc + Gorgonzola",
+      "criteria": { "sugar": 1, "martini": 1, "buff": 1 }
+    },
+    {
+      "result": "Sauvignon Blanc + Gorgonzola",
+      "criteria": { "sugar": 1, "martini": 1, "salad": 1 }
+    },
+    {
+      "result": "Sauvignon Blanc + Gorgonzola",
+      "criteria": { "sugar": 1, "martini": 1, "no": 1 }
+    },
+    {
+      "result": "Sauvignon Blanc + Gorgonzola",
+      "criteria": { "sugar": 1, "bourbon": 1, "roast": 1 }
+    },
+    {
+      "result": "Sauvignon Blanc + Gorgonzola",
+      "criteria": { "sugar": 1, "bourbon": 1, "bbq": 1 }
+    },
+    {
+      "result": "Sauvignon Blanc + Gorgonzola",
+      "criteria": { "sugar": 1, "bourbon": 1, "buff": 1 }
+    }
+  ]
+}
